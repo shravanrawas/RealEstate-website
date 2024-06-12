@@ -2,7 +2,6 @@ import { collection, getDocs, limit, orderBy, query, startAfter, where } from 'f
 import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify'
 import { db } from '../firebase'
-import { domToReact } from 'html-react-parser'
 import Spiner from '../componant/spiner'
 import ListingItem from '../componant/Listingitem'
 
