@@ -39,17 +39,17 @@ function Header() {
 
             <Link to='/'>
               <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] 
-                border-b-transparent ${pathMatch('/') && 'text-black border-b-red-700'}`}>Home</li>
+                border-b-transparent ${pathMatch('/') && 'text-black border-b-red-600'}`}>Home</li>
             </Link>
 
             <Link to='/offers'>
               <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] 
-                border-b-transparent ${pathMatch('/offers') && 'text-black border-b-red-700'}`}>Offers</li>
+                border-b-transparent ${pathMatch('/offers') && 'text-black border-b-red-600'}`}>Offers</li>
             </Link>
 
             <Link to='/profile'>
               <li className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] 
-                border-b-transparent ${(pathMatch('/sign-in') || pathMatch('/profile')) && 'text-black border-b-red-700'}`}>
+                border-b-transparent ${(pathMatch('/sign-in') || pathMatch('/profile')) && 'text-black border-b-red-600'}`}>
                 {pagestate}
               </li>
             </Link>
