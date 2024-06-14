@@ -15,20 +15,19 @@ Realestate website using React js and firebase
 
 live: https://real-estate-website-one-zeta.vercel.app/
 
-## Features
+##  🔑 Features
 
-- Firebase Authentication: Users can sign up, log in, and log out securely using Firebase Authentication.
-- Real-place-location : Users can see real location on map.
-- Post-creation: User can create their own posts of places add property information location etc.
-- Delete and edit: User can delete posts or edit posts
-- Email sending: User can share email message to owner of property by clicking on contact landlord 
+- User Authentication: Secure login and registration using Firebase.
+- Profile Management: Users can create, update, and delete their profiles.
+- Property Listings: Users can post, update, and delete property listings.
+- Real-Time Location: Interactive maps with Leaflet for precise property locations.
+- Email Communication: Users can directly send emails to property owners.
 
 
 ## Usage
 
 - Sign up for an account if you're a new user, or log in if you already have an account.
 - then you could start creating posts. posts will save in your my listing in your profile   
-
 
 Clone the project
 
