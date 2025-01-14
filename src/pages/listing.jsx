@@ -98,10 +98,7 @@ function Listing() {
               {listing.parking ? 'Parking Spot' : 'No parking'}
             </li>
 
-            <li className='flex items-center whitespace-nowrap'>
-              <FaChair className='text-lg mr-1' />
-              {listing.furnished ? 'Furnished' : 'Not furnished'}
-            </li>
+           
           </ul>
           {listing.userRef !== auth.currentUser?.uid && !contactlandlord && (
             <div className='mt-6'>
