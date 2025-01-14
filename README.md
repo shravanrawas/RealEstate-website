@@ -19,20 +19,6 @@ Demo: https://real-estate-website-one-zeta.vercel.app/
   - Leaflet Map
   - Tailwind CSS
   - JavaScript
-  
-## Contributing
-
-  - Node.js
-  - PostgreSQL
-  - Strapi CLI
-   
-If you’d like to contribute to this project, please follow these steps:
-
-  - Fork the repository.
-  - Create a new branch (git checkout -b feature-branch).
-  - Commit your changes (git commit -am 'Add new feature').
-  - Push to the branch (git push origin feature-branch).
-  - Create a new Pull Request.
 
 ## Installation
 
